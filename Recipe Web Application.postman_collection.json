@@ -20,7 +20,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/auth/signup",
+					"raw": "http://localhost:8080/api/auth/signup",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -28,7 +28,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"auth",
 						"signup"
 					]
@@ -51,7 +50,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/auth/signin",
+					"raw": "http://localhost:8080/api/auth/signin",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -59,7 +58,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"auth",
 						"signin"
 					]
@@ -73,7 +71,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/v1/auth/signout",
+					"raw": "http://localhost:8080/api/auth/signout",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -81,7 +79,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"auth",
 						"signout"
 					]
@@ -95,7 +92,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/v1/categories",
+					"raw": "http://localhost:8080/api/categories",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -103,7 +100,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"categories"
 					]
 				}
@@ -116,7 +112,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/v1/recipes/category?id=1",
+					"raw": "http://localhost:8080/api/recipes/category?id=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -124,7 +120,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"recipes",
 						"category"
 					],
@@ -144,7 +139,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/v1/recipes?id=5",
+					"raw": "http://localhost:8080/api/recipes?id=5",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -152,7 +147,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"recipes"
 					],
 					"query": [
@@ -180,7 +174,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/recipes/create",
+					"raw": "http://localhost:8080/api/recipes/create",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -188,7 +182,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"recipes",
 						"create"
 					]
@@ -211,7 +204,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/recipes/delete",
+					"raw": "http://localhost:8080/api/recipes/delete",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -219,7 +212,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"recipes",
 						"delete"
 					]
@@ -233,7 +225,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/v1/ingredients/all",
+					"raw": "http://localhost:8080/api/ingredients/all",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -241,7 +233,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"ingredients",
 						"all"
 					]
@@ -255,7 +246,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/v1/units/all",
+					"raw": "http://localhost:8080/api/units/all",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -263,7 +254,6 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"v1",
 						"units",
 						"all"
 					]
