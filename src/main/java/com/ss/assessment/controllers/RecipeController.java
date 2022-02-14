@@ -10,7 +10,6 @@ import com.ss.assessment.models.entity.RecipeEntity;
 import com.ss.assessment.models.entity.RecipeStepEntity;
 import com.ss.assessment.payload.request.CreateRecipeRequest;
 import com.ss.assessment.payload.request.DeleteRecipeRequest;
-import com.ss.assessment.payload.response.FindRecipeResponse;
 import com.ss.assessment.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -87,8 +86,7 @@ public class RecipeController {
         recipeRepository.findRecipeEntitiesByCategoriesContaining(categoryRepository.getById(id)).forEach(recipeEntity -> {
             recipeList.add(newRecipe(recipeEntity));
         });
-        FindRecipeResponse response = new FindRecipeResponse(recipeList);
-        return ResponseEntity.ok().body(response);
+        return ResponseEntity.ok().body(recipeList);
     }
 
     @GetMapping("/recipes")
